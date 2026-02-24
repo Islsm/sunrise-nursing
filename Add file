@@ -1,0 +1,18 @@
+sunrise-nursing-website
+│
+├── index.html          (Home)
+├── about.html          (About + Principal)
+├── administration.html
+├── academic.html
+├── admission.html
+├── notice.html
+├── gallery.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+└── images/
