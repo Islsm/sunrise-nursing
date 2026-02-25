@@ -78,3 +78,31 @@ color:white;
 text-align:center;
 padding:15px;
 }
+.menu li{
+position:relative;
+}
+
+.submenu{
+display:none;
+position:absolute;
+background:#0059b3;
+padding:10px;
+top:30px;
+left:0;
+min-width:180px;
+}
+
+.submenu li{
+margin:5px 0;
+}
+
+.menu li:hover .submenu{
+display:block;
+}
+
+/* Mobile fix */
+@media(max-width:768px){
+nav ul{
+flex-direction:column;
+}
+}
