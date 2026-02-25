@@ -106,3 +106,29 @@ nav ul{
 flex-direction:column;
 }
 }
+.notice-list{
+list-style:none;
+padding:0;
+}
+
+.notice-list li{
+background:#f5f7fa;
+margin:8px 0;
+padding:10px;
+border-left:4px solid #0059b3;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:10px;
+}
+
+.gitem{
+background:#ddd;
+height:120px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+}
